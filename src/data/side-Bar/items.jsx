@@ -1,5 +1,5 @@
 
-import { BarChart3,FileText, Home,  LogOut,  Settings, ShoppingCart} from "lucide-react"
+import { BarChart3,FileText, Home,  LogOut,  Settings, ShoppingCart, Tags, Users} from "lucide-react"
 
 const items = [
   {
@@ -22,12 +22,21 @@ const items = [
     url: "#",
     icon: FileText,
   },
+ { title: "Users",
+    url: "/users",
+    icon: Users,
+  },
+  {
+    title: "Pricing",
+    url: "/catalog",
+    icon: Tags,
+  },
   {
     title: "Settings",
-    url: "#",
+    url: "/setting",
     icon: Settings,
   },
- 
+  
 ]
 
  export default items

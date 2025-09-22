@@ -23,8 +23,8 @@ function toggleDarkMode(){
 
   return (
     <>
-    <section className="flex items-center justify-end pt-8 container border-gray-200 ">
-    <div className=" bg-primary px-4 py-2 mr-[37px] rounded-full flex gap-6 dark:bg-gray-800">
+    <section className=" flex items-center justify-end pt-8 container border-gray-200 ">
+    <div className=" bg-primary py-2 px-4 rounded-full flex gap-6 dark:bg-gray-800">
 
           <button  onClick={toggleDarkMode}
         className="p-1 rounded   transition">

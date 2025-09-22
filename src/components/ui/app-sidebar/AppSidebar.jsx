@@ -14,7 +14,7 @@ export function AppSidebar() {
     <div className="flex gap-0 ">
 
 <Sidebar    collapsible="offcanvas" 
-className="  w-64 md:w-44 lg:w-64
+className="  w-64 md:w-[20%] lg:w-64
  text-gray-100 shadow-lg border-none "   >
 
   <SidebarContent className="py-4 bg-primary dark:bg-slate-800"
@@ -87,4 +87,3 @@ className="  w-64 md:w-44 lg:w-64
       </>
   )
 }
-
